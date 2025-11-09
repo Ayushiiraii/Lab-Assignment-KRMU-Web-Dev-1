@@ -1,0 +1,140 @@
+/* Basic page setup */
+body{
+    font-family: 'Poppins' , sans-serif;
+    margin:0;
+    background-color: #ffffff;
+}
+/* Header */
+header{
+    background-color:#0000ff;
+    color:white;
+    padding:15px 0;
+    text-align: center;
+}
+/* Navigation */
+nav{
+    margin-top: 5px;
+
+}
+nav>ul{
+
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    color: rgb(76, 76, 76);
+}
+        
+nav a{
+    color:#ffffff;
+    text-decoration: none;
+    margin:0 15px;
+    font-weight: bold;
+}
+nav a:hover{
+    color:rgb(159, 8, 123);
+} 
+/* Section for all */
+section{
+    width:80%;
+    margin:80px auto 30px;
+    background-color: #ffffff;
+    padding:20px;
+    border: 1px solid #ffffff;
+    border-radius:8px;
+    text-align: center;
+}
+/* Headings */
+h2{
+    margin: top 0;
+    color:black;
+}
+
+/* Profile Image */
+.profile{
+    width:120px;
+    border-radius: 50%;
+}
+/* Skills Tables */
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:10px;
+}
+table,th,td{
+    border:2px solid #0000ff;
+    padding: 12px;
+}
+th{
+    background-color: #0000ff;
+    color:#ffffff;
+} 
+th,td{
+    border:2px solid #0000ff;
+    padding: 10px;
+}
+/* Project box */
+.project-box{
+    width:60%;
+    margin: 15px auto;
+    background-color: white;
+    border:1px solid #ccc;
+    padding: 20px;
+    border-radius:4px;
+}
+/* Contact form */
+#table-f{
+    width:100%;
+    margin: 10px;;
+    border:1px solid #ccc;
+    border-collapse:collapse;
+}
+#table-f td{
+    border:2px solid #0000ff;
+    padding:12px;
+}
+form{
+    width:60%;
+    margin:auto;
+    text-align: left;
+}
+input,textarea{
+    width:90%;
+    padding:10px;
+    margin-top:10px;
+    border:1px solid #a7a3a3;
+    border-radius:1px;
+}
+textarea{
+    height:80px;
+}
+/* Send button */
+.submit-btn{
+    display: block;
+    background-color: #0000ff;
+    color:rgb(245, 240, 240);
+    padding:10px 20px;
+    border:none;
+    border-radius: 2px;
+    margin:15px auto;
+    cursor:pointer;
+    text-align: center;
+}
+.submit-btn:hover{
+    background-color: #004aad;
+}
+/* Footer */
+footer{
+    background-color: #004aad;
+    padding:20px;
+    text-align:right;
+} 
+.back-to-top{
+    background-color:blue;
+    color:#ffffff;
+    padding:8px 6px;
+    border-radius:3px;
+    text-align: right;
+}
