@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Google font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--Sticky navigation-->
+    <header id="top">
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about ">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--About section-->
+    <section id="about" class="section-box">
+        <h2>About Me</h2>
+        <img src="IMG20251003181801.jpg" class="profile" alt="Profile photo" width="130" height="130">
+        <p>
+          Hello! I am Ayushi Rai, a student passionate about technology, creativity, and learning. This is my personal
+         portfolio website.
+        </p>
+    </section>
+    <hr>
+
+    <!--Skills section -->
+    <section id="skills" class="section-box">
+        <h2>Teachnical Skills</h2>
+        <table class="skills-tables">
+            <tr>
+                <th>Skill</th>
+                <th>Level</th>
+            </tr>
+            <tr>
+                <td>Html</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Intermediate</td>
+            </tr>
+        </table>
+    </section>
+
+
+    <hr>
+
+    <!--Projects section-->
+    <section id="projects" class="section-box">
+        <h2>My Projects</h2>
+        <div class="project-box">
+            <h3>Project 1</h3>
+            <p>E-commerce product page</p>
+        </div>
+        <div class="project-box">
+            <h3>Project 2</h3>
+            <p>Educational Course Page</p>
+        </div>
+    </section>
+
+    <hr>
+
+    <!--Contacts section-->
+
+    <section id="contact" class="section-box">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <table id="table-f">
+            <tr>
+              <td> <label>Name:</label></td>
+               <td><input type="text" placeholder="your Name" required></td>
+            </tr>
+
+            <tr>
+             <td><label>Email:</label></td>
+             <td><input type="email" placeholder="example@gmail.com" required></td>
+            </tr>
+            <tr>
+             <td><label>Message:</label></td>
+             <td><textarea placeholder="write your message" required></textarea></td>
+            </tr>
+            <tr>
+             <td colspan="2"><button type="submit" class="submit-btn">Send</button></td>
+            </tr>
+            </table>
+        </form>
+
+    </section>
+    <br>
+
+    <!--Back to button-->
+    <footer>
+    <a href="#top" class="back to top"><button>Back to top</button></a>
+    </footer>
+
+</body>
+
+</html>
