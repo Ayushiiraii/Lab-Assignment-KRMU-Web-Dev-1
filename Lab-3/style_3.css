@@ -13,7 +13,9 @@ body {
     color: #111;
 }
 
-h1, h2, h4 {
+h1,
+h2,
+h4 {
     text-transform: uppercase;
     font-family: "Arial Black", sans-serif;
     letter-spacing: 1px;
@@ -29,8 +31,8 @@ p {
     justify-content: space-between;
     align-items: center;
     padding: 1.3rem 6%;
-    background: #0a0a0a;
-    border-bottom: 3px solid #00c2ff;
+    background: rgb(51, 51, 183);
+    border-bottom: 3px solid none;
 }
 
 .head .Portfolio {
@@ -71,9 +73,10 @@ nav ul li a:hover {
     text-align: left;
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
+    align-items: flex-start;
 }
-h1{
+
+h1 {
     display: flex;
     justify-content: left;
 }
@@ -91,25 +94,37 @@ h1{
 }
 
 @keyframes glow {
-    0% { color: #00c2ff; }
-    50% { color: #4120ff; }
-    100% { color: #4a0f0f; }
+    0% {
+        color: #00c2ff;
+    }
+
+    50% {
+        color: #4120ff;
+    }
+
+    100% {
+        color: #4a0f0f;
+    }
 }
 
 img {
     border-radius: 50%;
-    box-shadow: 0 0 30px rgba(0,0,0,0.4);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
     border: 4px solid none;
 }
 
 
-.about, .skills, .projects, .contact {
+.about,
+.skills,
+.projects,
+.contact {
     padding: 4rem 6%;
     text-align: left;
 }
 
 
-.skills-grid, .projects-grid {
+.skills-grid,
+.projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
     gap: 2.2rem;
@@ -123,17 +138,17 @@ img {
     border-radius: 18px;
     text-decoration: none;
     border: 2px solid #eee;
-    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     transition: 0.4s ease;
 }
 
 .skills .box {
-    background: #d4ffdf;
+    background: #3a4fb8;
 }
 
 .box:hover {
     transform: translateY(-10px);
-    box-shadow: 0 0 25px rgba(0,194,255,0.5);
+    box-shadow: 0 0 25px rgba(18, 23, 25, 0.5);
 }
 
 
@@ -143,7 +158,7 @@ img {
     padding: 2.5rem;
     background: #fff;
     border-radius: 18px;
-    box-shadow: 0 0 25px rgba(0,0,0,0.15);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
     display: flex;
     flex-direction: column;
     gap: 1.3rem;
@@ -202,7 +217,7 @@ img {
 
 
 .footer {
-    background: #000;
+    background: rgb(51, 51, 183);
     color: #fff;
     padding: 1.6rem;
     text-align: center;
@@ -215,10 +230,12 @@ img {
         flex-direction: column;
         text-align: center;
     }
+
     img {
         width: 55vw;
         height: 55vw;
     }
+
     .contact-me {
         width: 95%;
     }
